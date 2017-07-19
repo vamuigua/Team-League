@@ -1,4 +1,4 @@
-# Team-League
+# Team-League :soccer: :basketball: :football: :rugby_football: :baseball:
 A Ruby based app to manage a league with teams and tournaments.
 
 ## About
