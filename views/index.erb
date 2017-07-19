@@ -1,0 +1,16 @@
+<div class="intro-head">
+	<h1>TEAM LEAGUE</h1>
+	<div class="universal-layout">
+		<h2>Available teams</h2>
+		<% if @teams.any?() %>
+		<ul>
+			<% @teams.each() do |team| %>
+			<li style="font-size: 20px;"><a href="/team/<%= team.id()%>"><%= team.name() %></a> </li>
+			<% end %>
+		</ul>
+		<% else %>
+		<p>There are no teams yet!</p>
+		<a class="waves-effect waves-light btn" href="/teams/new">Add New Team</a>
+		<% end %>
+	</div>
+</div>
