@@ -2,6 +2,6 @@ development:
     adapter: postgresql
     database: team_league_development
 
-  test:
+test:
     adapter: postgresql
     database: team_league_test
