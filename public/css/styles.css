@@ -1,4 +1,10 @@
 body {
+    font-family: 'Raleway', sans-serif;
     background-color: black;
     color: white;
+}
+
+.intro-head {
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
 }
