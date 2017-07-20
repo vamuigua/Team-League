@@ -1,10 +1,22 @@
+/**************BODY******************/
 body {
     font-family: 'Raleway', sans-serif;
     background-color: black;
     color: white;
 }
 
+/************INTRO-HEAD*********************/
 .intro-head {
     text-align: center;
     font-family: 'Gloria Hallelujah', cursive;
+}
+
+/*************NAVBAR****************/
+nav ul a:hover {
+    background-color: #38003C;
+}
+
+/************TEAMS PAGE***************/
+.teams {
+    text-align: center;
 }
