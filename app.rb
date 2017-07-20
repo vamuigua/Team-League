@@ -17,3 +17,9 @@ end
 get('/teams/new') do
   erb(:teams_form)
 end
+
+######TEAMS ROUTE#######
+get('/teams') do
+  @teams = Team.all()
+  erb(:teams)
+end
