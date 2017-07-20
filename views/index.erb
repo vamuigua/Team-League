@@ -1,19 +1,16 @@
 <div class="intro-head">
 	<h1>TEAM LEAGUE</h1>
-	 <div class="parallax-container">
-      <div class="parallax"><img class="parallax-img responsive-img" src="/images/rugby.jpg"></div>
-    </div>
-	<div class="universal-layout">
-		<h2>Available teams</h2>
-		<% if @teams.any?() %>
-		<ul>
-			<% @teams.each() do |team| %>
-			<li style="font-size: 20px;"><a href="/team/<%= team.id()%>"><%= team.name() %></a> </li>
-			<% end %>
-		</ul>
-		<% else %>
-		<p>There are no teams yet!</p>
-		<a class="waves-effect waves-light btn" href="/teams/new">Add New Team</a>
-		<% end %>
+	<div class="parallax-container">
+		<div class="parallax"><img class="responsive-img" src="/images/rugby.jpg"></div>
+	</div>
+	<!--NEWS-->
+	<div class="container">
+		<div class="news">
+			<div class="row">
+				<div id="news" class="col s12 m4 l4 scrollspy" style="background-color: red; height: 20px">ttt</div>
+				<div id="live" class="col s12 m4 l4 scrollspy" style="background-color: blue; height: 20px">rrr</div>
+				<div id="live" class="col s12 m4 l4 scrollspy" style="background-color: green; height: 20px">ggg</div>
+			</div>
+		</div>
 	</div>
 </div>
