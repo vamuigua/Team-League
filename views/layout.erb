@@ -1,38 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Team League</title>
-    <!--Google Fonts-->
-    
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/styles.css">
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <!--Font Awesome-->
-    <script src="https://use.fontawesome.com/16181c0ef9.js"></script>
-    <!--Let browser know website is optimized for mobile-->
-    <meta  name="viewport" content="width=device-width, initial-scale=1.0"/>
-  </head>
-  <body>
-    <nav>
-      <div class="nav-wrapper purple darken-2">
-        <a href="/" class="brand-logo center ">LOGO</a>
-        <ul id="nav-mobile" class="left hide-on-med-and-down">
-          <li><a href="/">TEAM LEAGUE</a></li>
-        </ul>
-      </div>
-    </nav>
-    <div class="container">
-      <%= yield %>
-    </div>
-    <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-  </body>
+	<head>
+		<title>Team League</title>
+		<!--Google Fonts-->
+		
+		<!-- Compiled and minified CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="css/styles.css">
+		<!--Import Google Icon Font-->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!--Import materialize.css-->
+		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+		<!--Font Awesome-->
+		<script src="https://use.fontawesome.com/16181c0ef9.js"></script>
+		<!--Let browser know website is optimized for mobile-->
+		<meta  name="viewport" content="width=device-width, initial-scale=1.0"/>
+	</head>
+	<body>
+		<nav>
+			<div class="nav-wrapper teal accent-3">
+				<a href="#!" class="brand-logo"><img class="responsive-img" src="/images/logo.png" style="width:85px"></a>
+				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="#">Sign Up</a></li>
+					<li><a href="#">Tournaments</a></li>
+				</ul>
+				<ul class="side-nav" id="mobile-demo">
+					<li><a href="#">Sign Up</a></li>
+					<li><a href="#">Tournaments</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div class="container">
+			<%= yield %>
+		</div>
+		<!--Import jQuery before materialize.js-->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<!-- Compiled and minified JavaScript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+		<script type="text/javascript" src="js/materialize.min.js"></script>
+		<!--Custom JS-->
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
 </html>
