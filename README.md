@@ -1,6 +1,8 @@
 # Team-League :soccer: :basketball: :football: :rugby_football: :baseball:
 A Ruby based app to manage a league with teams and tournaments.
 
+![Screenshot](images/screenshot.png)
+
 ## About
 
 The  app manages a league with teams and tournaments. You can decide what kind of league will be your client. Possible ideas: a sport of some sort - high school basketball, college foosball, bobsledding; a game of some sort - chess, Magic, tiddlywinks, community laser tag; an activity of some sort - relay racing, ice sculpting, snail racing, country line dancing.
